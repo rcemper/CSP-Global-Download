@@ -21,7 +21,7 @@ IRIS for UNIX (Ubuntu Server LTS for x86-64 Containers) 2023.2 (Build 227U) Mon 
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
 On your target server, you need to install    
-https://github.com/rcemper/native-api-command-line-extention
+https://github.com/rcemper/native-api-command-line-extension
 
 ### Installation 
 Clone/git pull the repo into any local directory   
