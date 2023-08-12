@@ -47,31 +47,25 @@ docker-compose exec iris iris session iris
 ````   
 
 A simple remote global lister  
-
 ````
-gl ; list remote Global
 
-  set global="^dc.MultiD"  ;; adjust as required    
+ gl ; list remote Global
 
-  set a=%rccdb.Function("%ZX","","quit $LB($D("_global_",%rcc),%rcc)")    
+   set global="^dc.MultiD"  ;; adjust as required    
 
-  Write !,global," = ",$li(a,2)," $DATA = ",$li(a),!     
+   set a=%rccdb.Function("%ZX","","quit $LB($D("_global_",%rcc),%rcc)")    
 
-  if $li(a)#10 {    
+   Write !,global," = ",$li(a,2)," $DATA = ",$li(a),!     
 
-    for {     
-
+   if $li(a)#10 {    
+     for {     
       set a=%rccdb.Function("%ZX","","q $LB($q(@$zr),@$ZR)")   
-
       quit:$li(a)=""    
-
       write $li(a), " = ", ##class(%Utility).FormatString($li(a,2)),!    
-
       }    
-
     }    
-
  Write "-------done----------",!   
+
 ````
 
 [Article in DC](https://community.intersystems.com/post/remote-global-listing-using-nativeapi-objectscript-2)
