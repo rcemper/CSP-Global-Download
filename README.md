@@ -28,7 +28,9 @@ Clone/git pull the repo into any local directory
 ```
 git https://github.com/rcemper/Dataset-OEX-reviews.git    
 ```
-Run the IRIS container with your project:     
+   
+Run the IRIS container with your project:  
+
 ```
 docker-compose up -d --build    
 ```
@@ -36,7 +38,9 @@ docker-compose up -d --build
 ```
 docker-compose exec iris iris session iris    
 ```
-A simple remote global lister    
+
+A simple remote global lister  
+
 ````
 gl ; list remote Global    
   set global="^dc.MultiD"  ;; adjust as required    
