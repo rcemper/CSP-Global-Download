@@ -25,12 +25,13 @@ On your target server, you need to install
 https://github.com/rcemper/native-api-command-line-extension    
 
 ### Installation   
-Clone/git pull the repo into any local directory   
-````
-git https://github.com/rcemper/Dataset-OEX-reviews.git    
-````
+Clone/git pull the repo into any local directory  
+
+````    
+git https://github.com/rcemper/native-api-command-line-client    
+````    
    
-Run the IRIS container with your project:  
+Run the IRIS container with your project:   
 
 ````
 docker-compose up -d --build    
@@ -39,7 +40,7 @@ docker-compose up -d --build
 
 ````
 docker-compose exec iris iris session iris    
-````
+````   
 
 A simple remote global lister  
 
