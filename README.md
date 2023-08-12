@@ -49,17 +49,28 @@ docker-compose exec iris iris session iris
 A simple remote global lister  
 
 ````
-gl ; list remote Global    
+gl ; list remote Global
+
   set global="^dc.MultiD"  ;; adjust as required    
+
   set a=%rccdb.Function("%ZX","","quit $LB($D("_global_",%rcc),%rcc)")    
+
   Write !,global," = ",$li(a,2)," $DATA = ",$li(a),!     
+
   if $li(a)#10 {    
+
     for {     
+
       set a=%rccdb.Function("%ZX","","q $LB($q(@$zr),@$ZR)")   
+
       quit:$li(a)=""    
+
       write $li(a), " = ", ##class(%Utility).FormatString($li(a,2)),!    
+
       }    
+
     }    
+
  Write "-------done----------",!   
 ````
 
