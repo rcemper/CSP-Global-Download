@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="oex-mapping.ZPM">
+  <Document name="native-api-command-line.ZPM">
     <Module>
-      <Name>oex-mapping</Name>
-	  <Description>extract info from OEX</Description> 
+      <Name>native-api-command-line</Name>
+	  <Description>Use NativeAPI as command line</Description> 
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="oex.PKG"/>
+      <Resource Name="nacl.PKG"/>
     </Module>
   </Document>
 </Export>
