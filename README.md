@@ -12,7 +12,7 @@ do ##class(nacl.Client).Connect("192.168.0.99",41773)
 
 Then you launch your command for remote execution      
 
-```   
+````   
 USER>write ##class(nacl.Client).Do(" quit $now() ")
    
 66698,68259.396554358
@@ -20,7 +20,7 @@ USER>write ##class(nacl.Client).Do(" quit $now() ")
 USER>write ##class(nacl.Client).Do(" quit $ZV ")
 
 IRIS for UNIX (Ubuntu Server LTS for x86-64 Containers) 2023.2 (Build 227U) Mon Jul 31 2023 18:04:28 EDT   
-```   
+````  
  
 ### Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.    
