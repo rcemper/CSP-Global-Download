@@ -5,16 +5,20 @@ you have to add
 - your credentials for server access    
 - your level of error handling    
 First,    
-you make a connection to the target SuperServer Port   
+you make a connection to the target SuperServer Port    
 ````   
 do ##class(nacl.Client).Connect("192.168.0.99",41773)   
 ````    
 
-Then you launch your command for remote execution    
+Then you launch your command for remote execution      
+
 ```   
-USER>write ##class(nacl.Client).Do(" quit $now() ")     
-66698,68259.396554358    
-USER>write ##class(nacl.Client).Do(" quit $ZV ")   
+USER>write ##class(nacl.Client).Do(" quit $now() ")
+   
+66698,68259.396554358
+
+USER>write ##class(nacl.Client).Do(" quit $ZV ")
+
 IRIS for UNIX (Ubuntu Server LTS for x86-64 Containers) 2023.2 (Build 227U) Mon Jul 31 2023 18:04:28 EDT   
 ```   
  
