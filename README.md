@@ -50,7 +50,7 @@ gl ; list remote Global
       }
     }
  Write "-------done----------",!
-
+````
 
 [Article in DC](https://community.intersystems.com/post/remote-global-listing-using-nativeapi-objectscript-2)
   
