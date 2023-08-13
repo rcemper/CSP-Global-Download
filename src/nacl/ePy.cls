@@ -1,4 +1,4 @@
-Class nacl.Client
+Class nacl.ePy
 {
 ClassMethod Connect(
 	serverIP = "192.168.0.9",
