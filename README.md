@@ -1,9 +1,10 @@
-This is the ObjectScript client for IRIS NativeAPI Command extension  
-It is not a click-and-run code but a draft that requires   
-adjustments for your special needs    
-you have to add   
+This is the Python client for IRIS NativeAPI Command extension   
+It demonstrates using the extension without ObjectScript   
+
+Vou have to prepare   
 - your credentials for server access    
-- your level of error handling    
+- your level of error handling
+   
 First,    
 you make a connection to the target SuperServer Port    
 ````   
