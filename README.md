@@ -9,20 +9,14 @@ you make a connection to the target SuperServer Port
 ````   
 do ##class(nacl.Client).Connect("192.168.0.99",41773)   
 ````    
-
 Then you launch your command for remote execution      
-
-````   
-USER>write ##class(nacl.Client).Do(" quit $now() ")
-   
+<p><pre>USER>write ##class(nacl.Client).Do(" quit $now() ")
 66698,68259.396554358
-
 USER>write ##class(nacl.Client).Do(" quit $ZV ")
-
 IRIS for UNIX (Ubuntu Server LTS for x86-64 Containers) 2023.2 (Build 227U) Mon Jul 31 2023 18:04:28 EDT   
-````  
- 
-### Prerequisites
+</pre></p>
+
+### Prerequisites    
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.    
 
 On your target server, you need to install    
@@ -47,16 +41,11 @@ docker-compose exec iris iris session iris
 ````   
 
 A simple remote global lister  
-````
-
+<p><pre>
  gl ; list remote Global
-
    set global="^dc.MultiD"  ;; adjust as required    
-
    set a=%rccdb.Function("%ZX","","quit $LB($D("_global_",%rcc),%rcc)")    
-
    Write !,global," = ",$li(a,2)," $DATA = ",$li(a),!     
-
    if $li(a)#10 {    
      for {     
       set a=%rccdb.Function("%ZX","","q $LB($q(@$zr),@$ZR)")   
@@ -65,8 +54,7 @@ A simple remote global lister
       }    
     }    
  Write "-------done----------",!   
-
-````
+</pre></p>
 
 [Article in DC](https://community.intersystems.com/post/remote-global-listing-using-nativeapi-objectscript-2)
   
