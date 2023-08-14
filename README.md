@@ -38,7 +38,7 @@ docker-compose up -d --build
 ## How to Test it    
 
 <p><pre>
-docker-compose exec iris bash python3 rcc.py  
+docker-compose exec iris bash python3 src/rcc.py  
 
 </pre></p>
 
