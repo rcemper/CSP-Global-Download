@@ -18,7 +18,7 @@ docker-compose up -d --build
 ````
 ### How to Test it    
 <p><pre>docker-compose exec iris bash python3 src/rcc.py
-   
+  
 \>\>\> serverIP [127.0.0.1]:
 \>\>\> serverPORT [1972]:
 \>\>\> namespace [USER]:
