@@ -72,7 +72,9 @@ Select Demo to exercise
          ^dc.MultiD(5)  =  $lb("","")
          ^dc.MultiD(5,"mJSON")  =  "{}"
          **** done ***
-\>\>\> take a choice [1]:
+\>\>\> take a choice [1]: *
+
+Thank you for trying the demo
 </pre></p>
 
 [Article in DC](https://community.intersystems.com/post/remote-global-listing-using-nativeapi-objectscript-2)
