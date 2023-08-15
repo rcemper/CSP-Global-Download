@@ -37,19 +37,19 @@ Select Demo to exercise
  \* = Terminate demo
 \>\>\> take a choice [1]:
          IRIS for UNIX (Ubuntu Server LTS for x86-64 Containers) 2023.2 (Build 227U) Mon Jul 31 2023 18:04:28 EDT
-\>\>\> take a coice [1]: 2
+\>\>\> take a choice [1]: 2
          2023-08-15 07:42:16
-\>\>\> take a coice [1]: 3
+\>\>\> take a choice [1]: 3
          0
-\>\>\> take a coice [1]: 4
+\>\>\> take a choice [1]: 4
          x86_64 * Intel * Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
-\>\>\> take a coice [1]: 0
+\>\>\> take a choice [1]: 0
 \>\>\> Your ObjectScript [ quit "?"]: quit $ZTS
          66701,27813.678790226
-\>\>\> take a coice [1]: 0
+\>\>\> take a choice [1]: 0
 \>\>\> Your ObjectScript [ quit "?"]: quit 17/4
          4.250000000000000000
-\>\>\> take a coice [1]: 0
+\>\>\> take a choice [1]: 0
 \>\>\> Your ObjectScript [ quit "?"]: quit 17/0
          <DIVIDE\> 18 x^%ZX
 \>\>\> take a choice [1]: 5
