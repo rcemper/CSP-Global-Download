@@ -78,4 +78,6 @@ Thank you for trying the demo
 </pre></p>
 
 [Article in DC](https://community.intersystems.com/post/using-nativeapi-extension-python)
-        
+
+[Video](https://youtu.be/-rtJ0lNHuvk)
+
