@@ -37,16 +37,13 @@ docker-compose up -d --build
 ````
 ## How to Test it    
 
-<p><pre>
-docker-compose exec iris bash python3 src/rcc.py  
-
->>> serverIP [127.0.0.1]:
->>> serverPORT [1972]:
->>> namespace [USER]:
->>> username [_SYSTEM]:
->>> password [SYS]:
-
-Connected to Instance IRIS on Server 1C09927CAE60
+<p><pre>docker-compose exec iris bash python3 src/rcc.py           
+ \>\>\> serverIP [127.0.0.1]:
+ \>\>\> serverPORT [1972]:
+ \>\>\> namespace [USER]:
+ \>\>\> username [_SYSTEM]:
+ \>\>\> password [SYS]:
+Connected to Instance IRIS on Server 1C09927CAE60    
 
 Select Demo to exercise
  0 = free ObjectScript
@@ -55,11 +52,26 @@ Select Demo to exercise
  3 = TimeZone Offset of Server
  4 = Server Architecture*Vendor*Model
  5 = List Global in ZWRITE style
- * = Terminate demo
->>> take a choice [1]:
+ \* = Terminate demo
+\>\>\> take a choice [1]:
          IRIS for UNIX (Ubuntu Server LTS for x86-64 Containers) 2023.2 (Build 227U) Mon Jul 31 2023 18:04:28 EDT
->>> take a choice [1]: 5
->>> Your Global [^dc.MultiD]:
+\>\>\> take a coice [1]: 2
+         2023-08-15 07:42:16
+\>\>\> take a coice [1]: 3
+         0
+\>\>\> take a coice [1]: 4
+         x86_64 * Intel * Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+\>\>\> take a coice [1]: 0
+\>\>\> Your ObjectScript [ quit "?"]: quit $ZTS
+         66701,27813.678790226
+\>\>\> take a coice [1]: 0
+\>\>\> Your ObjectScript [ quit "?"]: quit 17/4
+         4.250000000000000000
+\>\>\> take a coice [1]: 0
+\>\>\> Your ObjectScript [ quit "?"]: quit 17/0
+         <DIVIDE\> 18 x^%ZX
+\>\>\> take a choice [1]: 5
+\>\>\> Your Global [^dc.MultiD]:
          ^dc.MultiD  =  5
          ^dc.MultiD(1)  =  $lb("Braam,Ted Q.",51353)
          ^dc.MultiD(1,"mJSON")  =  "{}"
@@ -78,8 +90,7 @@ Select Demo to exercise
          ^dc.MultiD(5)  =  $lb("","")
          ^dc.MultiD(5,"mJSON")  =  "{}"
          **** done ***
->>> take a choice [1]:
-
+\>\>\> take a choice [1]:
 </pre></p>
 
 [Article in DC](https://community.intersystems.com/post/remote-global-listing-using-nativeapi-objectscript-2)
