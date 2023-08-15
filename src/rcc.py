@@ -58,7 +58,7 @@ def gdemo(glob):
     return
 # demo selection
 while True :
-    demo=cmd("take a coice","1")
+    demo=cmd("take a choice","1")
     if (demo=="*") :
         break
     try :
