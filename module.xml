@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="nacl-client.ZPM">
+  <Document name="nacl-py.ZPM">
     <Module>
-      <Name>nacl-client</Name>
-	  <Description>Use NativeAPI command line client</Description> 
+      <Name>nacl-py</Name>
+	  <Description>Use NativeAPI Extension from PY</Description> 
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="nacl.PKG"/>
+      <Resource Name="dc.MultiD.GBL"/>
+      <Resource Name="rcc.py"/>
     </Module>
   </Document>
 </Export>
