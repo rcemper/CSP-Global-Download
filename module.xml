@@ -4,7 +4,7 @@
     <Module>
       <Name>nacl-py</Name>
 	  <Description>Use NativeAPI Extension from PY</Description> 
-      <Version>0.0.1</Version>
+      <Version>0.0.3</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
