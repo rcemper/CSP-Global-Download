@@ -37,12 +37,13 @@ docker-compose up -d --build
 ````
 ## How to Test it    
 
-<p><pre>docker-compose exec iris bash python3 src/rcc.py           
- \>\>\> serverIP [127.0.0.1]:
- \>\>\> serverPORT [1972]:
- \>\>\> namespace [USER]:
- \>\>\> username [_SYSTEM]:
- \>\>\> password [SYS]:
+<p><pre>docker-compose exec iris bash python3 src/rcc.py
+   
+\>\>\> serverIP [127.0.0.1]:
+\>\>\> serverPORT [1972]:
+\>\>\> namespace [USER]:
+\>\>\> username [_SYSTEM]:
+\>\>\> password [SYS]:
 Connected to Instance IRIS on Server 1C09927CAE60    
 
 Select Demo to exercise
