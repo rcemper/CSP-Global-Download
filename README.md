@@ -77,6 +77,5 @@ Select Demo to exercise
 Thank you for trying the demo
 </pre></p>
 
-[Article in DC](https://community.intersystems.com/post/remote-global-listing-using-nativeapi-objectscript-2)
-  
+[Article in DC](https://community.intersystems.com/post/using-nativeapi-extension-python)
         
