@@ -2,12 +2,12 @@
 <Export generator="Cache" version="25">
   <Document name="gbl-download-csp.ZPM">
     <Module>
-      <Name>nacl-py</Name>
+      <Name>gbl-download-csp</Name>
 	  <Description>Download Global as XML using CSP</Description> 
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.MultiD.GBL"/>
+      <Resource Name="dc.MultiD1.GBL"/>
       <Resource Name="dc.Gdown.CLS"/>
     </Module>
   </Document>
