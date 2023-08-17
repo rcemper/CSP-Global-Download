@@ -21,7 +21,7 @@ docker-compose up -d --build
 
 in your browser call  (http://192.168.0.9:42773/csp/user/dc.Gdown.cls?GBL=dc.MultiD)    
 and you get the file select menue for the download    
-<img width="50%" src="https://github.com/rcemper/CSP-Global-Download/assets/31236645/1b9e68f8-31af-4bd4-a5ab-d31fd8cdaa35">
+<img width="40%" src="https://github.com/rcemper/CSP-Global-Download/assets/31236645/1b9e68f8-31af-4bd4-a5ab-d31fd8cdaa35">
 
 
 
