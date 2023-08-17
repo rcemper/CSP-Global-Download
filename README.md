@@ -19,10 +19,8 @@ docker-compose up -d --build
 ````
 ### How to Test it    
 
-in your browser call  [](http://192.168.0.9:42773/csp/user/dc.Gdown.cls?GBL=dc.MultiD)   
-and you get the file select menue for the download    
+in your browser call  [http://192.168.0.9:42773/csp/user/dc.Gdown.cls?GBL=dc.MultiD](http://192.168.0.9:42773/csp/user/dc.Gdown.cls?GBL=dc.MultiD)   
+and you get the file select menu for the download    
 <img width="60%" src="https://github.com/rcemper/CSP-Global-Download/assets/31236645/1b9e68f8-31af-4bd4-a5ab-d31fd8cdaa35">
-
-
 
 [Article in DC](https://community.intersystems.com/post/download-globals-xml-using-csp)
