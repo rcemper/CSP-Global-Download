@@ -29,4 +29,5 @@ ClassMethod OnPage() As %Status
   do $system.OBJ.Export(%rcc_".GBL")
   Quit $$$OK
 }
+
 }

@@ -1,6 +1,8 @@
-zn "%SYS"
-Do ##class(Security.Users).UnExpireUserPasswords("*")
-zn "USER"
-zpm "install webterminal"
-zpm "load /opt/irisbuild/ -v":1
-halt
+    zn "%SYS"
+    Do ##class(Security.Users).UnExpireUserPasswords("*")
+    zn "USER"
+    zpm "install webterminal"
+    zpm "install dataset-countries"
+    zpm "load /home/irisowner/dev -v":1
+    for i=1:1:10 { set ^a(i)=$zdt($h,3)}
+    halt
