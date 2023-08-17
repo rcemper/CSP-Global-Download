@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="nacl-py.ZPM">
+  <Document name="gbl-download-csp.ZPM">
     <Module>
       <Name>nacl-py</Name>
-	  <Description>Use NativeAPI Extension from PY</Description> 
-      <Version>0.0.3</Version>
+	  <Description>Download Global as XML using CSP</Description> 
+      <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
-      <Resource Name="rcc.py"/>
+      <Resource Name="dc.Gdown.CLS"/>
     </Module>
   </Document>
 </Export>
