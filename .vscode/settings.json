@@ -1,0 +1,23 @@
+{
+  "files.associations": {
+      "Dockerfile*": "dockerfile",
+      "iris.script": "objectscript"
+    },
+  "objectscript.conn" :{
+    "ns": "USER",
+    "username": "_SYSTEM",
+    "password": "SYS",
+    "active": true,
+    "docker-compose": {
+      "service": "iris",
+      "internalPort": 52773
+    },
+    "links": {
+      "EXPORT GLOBAL dc.MultiD": "http://${host}:${port}/csp/user/dc.Gdown.cls?GBL=dc.MultiD",
+      "EXPORT GLOBAL a": "http://${host}:${port}/csp/user/dc.Gdown.cls?GBL=a",
+      "EXPORT GLOBAL dc.data.CountryD": "http://${host}:${port}/csp/user/dc.Gdown.cls?GBL=dc.data.CountryD",
+      "WEB TERMINAL": "http://${host}:${port}/terminal/"
+    }
+  }
+
+}

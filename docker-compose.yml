@@ -4,6 +4,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
+    hostname: csp-global-download
     command: --ISCAgent false
     restart: always
     ports: 
