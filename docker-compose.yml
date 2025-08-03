@@ -1,4 +1,3 @@
-version: '3.6'
 services:
   iris:
     build: 
@@ -12,3 +11,4 @@ services:
       - 42773:52773
     volumes:
       - ./:/irisdev/app
+
