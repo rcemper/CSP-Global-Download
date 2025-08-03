@@ -4,7 +4,7 @@
     <Module>
       <Name>gbl-download-csp</Name>
 	  <Description>Download Global as XML using CSP</Description> 
-      <Version>0.0.1</Version>
+      <Version>0.0.2</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.MultiD.GBL"/>
@@ -12,3 +12,4 @@
     </Module>
   </Document>
 </Export>
+
