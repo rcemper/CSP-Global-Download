@@ -1,3 +1,6 @@
+<img src="https://community.intersystems.com/sites/default/files/inline/images/archived.gif" width=100></img>
+<b>&nbsp;no maintenance or update</b> 
+
 This is the Python client for IRIS NativeAPI Command Extension   
 It demonstrates using the extension without ObjectScript   
 
@@ -9,7 +12,7 @@ Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installi
 Clone/git pull the repo into any local directory  
 
 ````    
-git ttps://github.com/rcemper/CSP-Global-Download   
+git https://github.com/rcemper/CSP-Global-Download   
 ````    
    
 Run the IRIS container with your project:   
@@ -28,3 +31,4 @@ and you get the file select menu for the download
 ![demo](./images/demo.jpg)
 
 [Article in DC](https://community.intersystems.com/post/download-globals-xml-using-csp)
+
